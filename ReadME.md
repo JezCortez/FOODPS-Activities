@@ -35,7 +35,13 @@ Integer or `int` is a data type used for any whole numbers like 5, 400 or 1000, 
 Floating point or `float` is a data type used for fractions or fraction of a number that comprises of a decimal point, numbers like 3.14, 5.977 or 300.0.
 
 #### String
-String or `str` is a data type used for ordered sequence of characters. It is commonly used with words and phrases and is the default data type in a `print` function. Example of a string would be: "hello", "goodbye" and "blah blah blah". Spaces, numbers and symbols are also 
+String or `str` is a data type used for ordered sequence of characters. It is commonly used with words and phrases and is the default data type in a `print` function. Example of a string would be: "hello", "goodbye" and "blah blah blah". Spaces, numbers and symbols and any combination of these can be used in a string.
+
+#### List
+List or `list` is a data type used to make an ordered sequence of objects, objects can be of other data types such as the Integer, Floating Point or String. The order is numbered from the first object starting from 0 then 1, 2, 3 and so on. The syntax of the list data type is `[]` Brackets.
+
+#### Dictionary
+Dictionary or `dict` 
 
  
 ## Activity #1: Hello world
