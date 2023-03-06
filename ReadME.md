@@ -18,6 +18,17 @@ Since this is part of the assignments in this subject, it is highly recommended 
 Sharing of the codes and programs is widely accepted and linking this repository is much appreciated!
 
 ## Python Data Types
+Here are some Data types that are going to be discussed in the FOODPS subject:
+- **Integer**
+- **Floating Point**
+- **String**
+- **List**
+- **Dictionary**
+- **Tuple**
+- **Set**
+- **Boolean**
+
+#### Integer
 
 
 
