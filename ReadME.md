@@ -66,6 +66,9 @@ The function is straightforward, it calls for a function, in this case the `prin
 
 The parameters are what is to be outputted by the program, which is `"Hello World"`
 
+## Activity #2: Check your Temperature
+
+
 
 
 
