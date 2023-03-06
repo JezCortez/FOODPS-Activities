@@ -17,7 +17,25 @@ Sharing of the codes and programs is widely accepted and recommended! Teaching m
 
 ## Activity #1: Hello world
 
+`print` is one of the simplest and most used function in all of python programming, it allows the program to output anything like a message or an answer.
+
 ```python
 print("Hello World")
 ```
-`print` is one of the simplest and most used function in all of python programming, it allows the program to output anything like a message or an answer.
+In this case, the program will output `Hello World` when executed.
+
+The `print` function has two parts:
+```python
+print()
+```
+The function itself
+```python
+"Hello World"
+```
+and the parameter
+
+
+
+
+
+
