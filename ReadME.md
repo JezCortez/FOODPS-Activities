@@ -11,3 +11,6 @@ Since this is part of the assignments in this subject, it is highly recommended 
 
 
 Sharing of the codes and programs is widely accepted and recommended! Teaching more people about coding and how it can be simple and easy is great and linking this repository to others is much appreciated!
+
+
+## Activity #1: Hello world
