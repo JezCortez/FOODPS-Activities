@@ -100,8 +100,42 @@ And of course, it prints the outcome.
 print(c)
 ```
 
+#### Topic 3.1: Tatsulok!
+`for` is a type of loop in python where it is used to iterate over a sequence, while `range()` is a function that returns a sequence of numbers, starting from 0, and increments by 1, and stops at a specified number.
+```python
+n = int(input("Please input the highest point of the triangle "))
+for r in range(n):
+    for c in range(r + 1):
+        print('*', end="")
+    print()
 
+for r in range(n):
+    for c in range(n - r - 1):
+        print('*', end="")
+    print()
+```
+In this instance, this makes a triangle out of asterisks with the number that we indicate to be the number of asterisks at the highest point of the triangle.
+The first part is to get the user input for the highest point of the triangle.
+```python
+n = int(input("Please input the highest point of the triangle "))
+```
+Next is where the `for` loop and `range()` function is used.
+```python
+for r in range(n):
+```
+Basically, the program will loop until the `range()` of variable `n`, or in this case, the user input.
+```python
+   for c in range(r + 1):
+       print('*', end="")
+   print()
+```
+The inner loop or the loop inside the other loop where it adds +1 to variable `r` is there to add an aditional asterisk every time the first loop loops, it also prints the asterisk and ends with no space. The last print is for the program to move on to the next line after the previous.
 
-
-
-
+The second part is the inverse of the first part, instead of adding asterisks, it subtracts 1.
+```python
+for r in range(n):
+    for c in range(n - r - 1):
+        print('*', end="")
+    print()
+```
+Same function as before, but now, every loop subtracts 1 asterisk until the variable `n` reaches 0.
