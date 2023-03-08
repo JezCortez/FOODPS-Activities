@@ -85,19 +85,21 @@ c=(5/9)*(f-32)
 print(c)
 ```
 In the code above, we are using two variables, `f` and `c` to solve for what is asked.
-
+The `f` variable is for the input of the user, which also indicates that it accepts `float` input. 
 ```python
 f=float(input())
 ```
-The `f` variable is for the input of the user, which also indicates that it accepts `float` input. 
+
+Meanwhile the `c` variable is for the equation. Notice that the `f` variable is being used in the equation in order to get an asnwer.
 ```python
 c=(5/9)*(f-32)
 ```
-Meanwhile the `c` variable is for the equation. Notice that the `f` variable is being used in the equation in order to get an asnwer.
+
+And of course, it prints the outcome.
 ```python
 print(c)
 ```
-And of course, it prints the outcome.
+
 
 
 
