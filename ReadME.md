@@ -100,7 +100,7 @@ And of course, it prints the outcome.
 print(c)
 ```
 
-#### Topic 3.1: Tatsulok!
+## Topic 3.1: Tatsulok!
 `for` is a type of loop in python where it is used to iterate over a sequence, while `range()` is a function that returns a sequence of numbers, starting from 0, and increments by 1, and stops at a specified number.
 ```python
 n = int(input("Please input the highest point of the triangle "))
