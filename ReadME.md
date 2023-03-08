@@ -77,8 +77,27 @@ The function is straightforward, it calls for a function, in this case the `prin
 The parameters are what is to be outputted by the program, which is `"Hello World"`
 
 ## Activity #2: Check your Temperature
+Assigning a variable is important in this case as it can be used in mathematical operations.
+```python
+f=float(input())
+c=(5/9)*(f-32)
 
+print(c)
+```
+In the code above, we are using two variables, `f` and `c` to solve for what is asked.
 
+```python
+f=float(input())
+```
+The `f` variable is for the input of the user, which also indicates that it accepts `float` input. 
+```python
+c=(5/9)*(f-32)
+```
+Meanwhile the `c` variable is for the equation. Notice that the `f` variable is being used in the equation in order to get an asnwer.
+```python
+print(c)
+```
+And of course, it prints the outcome.
 
 
 
