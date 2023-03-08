@@ -90,7 +90,7 @@ The `f` variable is for the input of the user, which also indicates that it acce
 f=float(input())
 ```
 
-Meanwhile the `c` variable is for the equation. Notice that the `f` variable is being used in the equation in order to get an asnwer.
+Meanwhile the `c` variable is for the equation. Notice that the `f` variable is being used in the equation in order to get an answer.
 ```python
 c=(5/9)*(f-32)
 ```
