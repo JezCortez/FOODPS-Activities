@@ -121,6 +121,40 @@ ando
 am
 ```
 
+## Tuple as key in dictionary
+Tuple can be used as a key in a Dictionary, since it is an ordered sequence while being immutable, it is perfect in a use case where you want the "keys" to not alter or fail.
+
+```python
+mytups=("1","2","3")
+
+keys={mytups[0]:"Hello", mytups[1]:"Hi", mytups[2]:"Good Morning"}
+
+print(keys["1"])
+
+```
+This program is able to print a value of a key by just calling the key in the `print()` function, which can make it really organized and easily expandable.
+
+This part is where the tuples are defined. Here, each tuple is a key to a value and is named "1", "2" and "3".
+```python
+mytups=("1","2","3")
+```
+
+This is where the values of the keys are stored, as a dictionary, following a index method of calling a tuple key, in this case, "1" would be numerical index 0, then "2" is 1 and so on.
+```python
+keys={mytups[0]:"Hello", mytups[1]:"Hi", mytups[2]:"Good Morning"}
+```
+
+
+
+```python
+print(keys["1"])
+
+```
+In the `print()` function, we can set what value to output by putting the key of that value, in the example of `keys["1"]`, the output would be 
+```python
+Hello
+```
+
 
 
 
