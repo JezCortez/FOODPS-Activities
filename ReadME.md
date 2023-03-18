@@ -373,7 +373,7 @@ Same as the others, the first part asks for a user input, with `lower()` method 
 ```python
 x = input("Input a word: ").lower()
 ```
-The line wwhere it checks the palindrome does two things, first, it uses a comparison operator for confirmation and second, it also uses String formatting. `[::-1]` flips the string backwards just as highlighted in [activity #3](https://github.com/JezCortez/FOODPS-Activities/blob/main/ReadME.md#activity-3-slice-your-name) where the "step" part goes backward with no start or end in the "slice". It prints "The word is a palindrome" if the conditions are true and "The word is not a palindrome" if its false.
+The line wwhere it checks the palindrome does two things, first, it uses a comparison operator for confirmation and second, it also uses String formatting. `[::-1]` flips the string backwards just as highlighted in [Activity #3](https://github.com/JezCortez/FOODPS-Activities/blob/main/ReadME.md#activity-3-slice-your-name) where the "step" part goes backward with no start or end in the "slice". It prints "The word is a palindrome" if the conditions are true and "The word is not a palindrome" if its false.
 
 
 
