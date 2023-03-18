@@ -172,17 +172,17 @@ else:
 ### Comparison Operators
 Comparison operators are used for comparing two different values with each other.
 
-#### ==
+#### [ == ]
 `==` or "Equal To" makes a condition true if both of the values compared are equal to each other.
-#### !=
+#### [ != ]
 `!=` or "Not Equal To" makes a condtion true if both of the values compared are not equal to each other. 
-#### >
+#### [ > ]
 `>` or "Greater Than" makes a condtiion true if the left operand is greater than the right operand.
-#### <
+#### [ < ]
 `<` or "Less Than" makes a conditions true if the left operand is less than the right operand.
-#### >=
+#### [ >= ]
 `>=` or "Greater Than or Equal To" makes a condition true if the left operand is greater than or equal to the right operand.
-#### <=
+#### [ <= ]
 `<=` or "Less Than or Equal To" makes a condition true if the left operand is less then or equal to the right operand.
 
 
