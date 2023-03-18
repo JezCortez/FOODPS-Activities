@@ -227,6 +227,7 @@ else:
 ```
 If the outcome of the previous operation didn't fulfill the conditions set, it goes to the else function, in this case, it prints "The number is odd"
 
+
 ### 2. Age
 The assignment is to write a program that asks a user to input their age and checks whether they are of legal age (18 years old)
 ```python
@@ -354,3 +355,27 @@ for r in range(n):
     print()
 ```
 Same function as before, but now, every loop subtracts 1 asterisk until the variable `n` reaches 0.
+
+
+## Palindrome
+The objective is to write a program that checks if the user inputted word is a palindrome or not.
+Since a palindrome is a word that is the same reversed, flipping the word and comparing it to the original word is a good way to do it.
+
+```python
+x = input("Input a word: ").lower()
+
+if x == x[::-1]:
+    print("The word is a palindrome")
+else:
+    print("The word is not a palindrome")
+```
+Same as the others, the first part asks for a user input, with `lower()` method where each character of the world is going to be changed to lowercase letters.
+```python
+x = input("Input a word: ").lower()
+```
+The line wwhere it checks the palindrome does two things, first, it uses a comparison operator for confirmation and second, it also uses String formatting. `[::-1]` flips the string backwards just as highlighted in [activity #3]() where the "step" part goes backward with no start or end in the "slice". It prints "The word is a palindrome" if the conditions are true and "The word is not a palindrome" if its false.
+
+
+
+
+
