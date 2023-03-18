@@ -44,7 +44,7 @@ List or `list` is a data type used to make an ordered sequence of objects, objec
 Dictionary or `dict` is a date type used to make an unordered pairs of keys with their respective values. Keys of a dictionary is always a string but the values can be of any data type. The syntax of a dictionary are `{}` Curly Brackets with `:` a Colon indicating the value of the key.
 
 #### Tuple
-Tuple or `tup` is a data type much like the list in where it is an ordered sequence of objects, but a Tuple is different in the sense that it is immutable or unchangeable. A Tuple can be other data types like Integer, Floating point or String.\
+Tuple or `tup` is a data type much like the list in where it is an ordered sequence of objects, but a Tuple is different in the sense that it is immutable or unchangeable. A Tuple can be other data types like Integer, Floating point or String.
 
 #### Set
 Set or `set` is a data type used to make unordered set of unique objects, it is unchangeable and does not allow duplicates, however, you can add or remove items of a set. The syntax of a set is the same with the dictionary, `{}` Curly Brackets.
@@ -99,6 +99,36 @@ And of course, it prints the outcome.
 ```python
 print(c)
 ```
+
+## Activity #3: Slice your name
+A value of a String can be manipulated and this activity is a good example of the many things you can do with String.
+
+```python
+name="Random Name"
+
+print(name[1:5])
+print(name[8:10])
+```
+In this code, the goal is to slice your name in a way where it removes the first and last letter of you first, middle and last name, for this, we will be using String Indexing.
+ 
+String indexing is sort of a way to "slice" a string. Indexing uses `[]` brackets for the notation after the String or a variable assigned to the string.
+
+`[Start:Stop:Step]` is the syntax of String indexing. The "Start" is the numerical index to indicate the start of the slice, the "Stop" is where it ends (the value in this index won't be added) and "Step" is the amount of units it "jumps" at.
+
+The output of this would be:
+```python
+ando
+am
+```
+
+
+
+
+
+
+
+
+
 
 ## Topic 3.1: Tatsulok!
 `for` is a type of loop in python where it is used to iterate over a sequence, while `range()` is a function that returns a sequence of numbers, starting from 0, and increments by 1, and stops at a specified number.
