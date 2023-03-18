@@ -28,28 +28,28 @@ Here are some Data types that are going to be discussed in the FOODPS subject:
 - **Set**
 - **Boolean**
 
-#### Integer
+### Integer
 Integer or `int` is a data type used for any whole numbers like 5, 400 or 1000, basically any number that isn't derived from a fraction is a whole number, this also includes negative numbers.
 
-#### Floating Point
+### Floating Point
 Floating point or `float` is a data type used for fractions or fraction of a number that comprises of a decimal point, numbers like 3.14, 5.977 or 300.0.
 
-#### String
+### String
 String or `str` is a data type used for ordered sequence of characters. It is commonly used with words and phrases and is the default data type in a `print` function. Example of a string would be: "hello", "goodbye" and "blah blah blah". Spaces, numbers and symbols and any combination of these can be used in a string.
 
-#### List
+### List
 List or `list` is a data type used to make an ordered sequence of objects, objects can be of other data types such as the Integer, Floating Point or String. The order is numbered from the first object starting from 0 then 1, 2, 3 and so on. The syntax of the list data type is `[]` Brackets.
 
-#### Dictionary
+### Dictionary
 Dictionary or `dict` is a date type used to make an unordered pairs of keys with their respective values. Keys of a dictionary is always a string but the values can be of any data type. The syntax of a dictionary are `{}` Curly Brackets with `:` a Colon indicating the value of the key.
 
-#### Tuple
+### Tuple
 Tuple or `tup` is a data type much like the list in where it is an ordered sequence of objects, but a Tuple is different in the sense that it is immutable or unchangeable. A Tuple can be other data types like Integer, Floating point or String.
 
-#### Set
+### Set
 Set or `set` is a data type used to make unordered set of unique objects, it is unchangeable and does not allow duplicates, however, you can add or remove items of a set. The syntax of a set is the same with the dictionary, `{}` Curly Brackets.
 
-#### Boolean
+### Boolean
 Boolean or `bool` is a data type used to indicate if a value is true or false.
 
 
@@ -155,9 +155,143 @@ In the `print()` function, we can set what value to output by putting the key of
 Hello
 ```
 
+## If Problems
 
+If statements are conditional operations where it does something in some condition.
+`if`, `elif` and `else` is part of the If statements.
 
+It follows a control flow syntax and here is how it is used:
+```python
+if some_condition:
+    execute_this
+elif other_condition:
+    execute_other_things
+else:
+    do something else
+```
+### 1. Positive and Negative Numbers
+The assignment is to write a program that asks a user to input a number and checks if the number is positive or negative.
 
+The program below does exactly as what is asked for:
+```python
+num = int(input("enter a number: "))
+
+if num % 2==0:
+    print("The Number is Even")
+
+else:
+    print("The Number is Odd")
+```
+This part prompts a user to input a number, we set it to only accept integers.
+```python
+num = int(input("enter a number: "))
+```
+After we get an input, this part is where we have our if-else statement.
+```python
+if num % 2==0:
+    print("The Number is Even")
+    
+else:
+    print("The Number is Odd")
+```
+The `%` percent symbol is a Modulo Operator, it divides the left hand operand to the right hand operand and returns the remainder. If the left hand operator can be evenly divided, the returned value is 0 and if there is a remainder, the value will be 1.
+
+Since an evenly divided left hand operand nets 0 value, we can use it to check if a number is even or odd. A definition of an even number is a number that can be evenly divided by 2 so in our if statement:
+
+```python
+if num % 2==0:
+    print("The Number is Even")
+```
+We use the `%` percent symbol to know if the number inputted divided by 2 is evenly divided which has the value of 0, in that case, it prints "The number is Even", if it isn't equal to 0, it goes to the else function:
+
+```python
+else:
+    print("The Number is Odd")
+```
+If the outcome of the previous operation didn't fulfill the conditions set, it goes to the else function, in this case, it prints "The number is odd"
+
+### 2. Age
+The assignment is to write a program that asks a user to input their age and checks whether they are of legal age (18 years old)
+```python
+age = int(input("How old are you?: "))
+
+if age >= 18:
+    print("Old Enough")
+
+else:
+    print("Not Old Enough")
+```
+Same format as no. 1, we will use a comparison operator, in this case, we will use the greater than/equal to comparison operator.
+```python
+if age >= 18:
+    print("Old Enough")
+```
+It will compare if the input of the user is greater than or equal to 18 and print "Old Enough", if the condition isn't met, it will go to the else function and print "Not Old Enough".
+```python
+else:
+    print("Not Old Enough")
+```
+
+### 3. Two Equal numbers
+The assignment is to write a program where the user inputs two numbers and checks if the two numbers are equal.
+Same with no.1, we will use the equal to comparison operator.
+```python
+num1 = int(input("Input the First Number: "))
+num2 = int(input("Input the Second Number: "))
+
+if num1 == num2:
+    print("Both numbers are equal")
+
+else:
+    print("The numbers are not equal")
+```
+We assign a variable to each number for each input and we compare them together to check if both of them are equal to each other.
+
+### 4. Name Length
+We can use the `len()` function to count how many characters are there in a String.
+```python
+name = input("What is your name?: ")
+
+if len(name) > 10:
+    print("Name is longer than 10 Characters. The length is:", len(name))    
+else:
+    print("Name is not longer than 10 Characters. The length is:", len(name))
+```
+We can put the `len()` function in an if statement, in this case, we need to use a comparison operator to compare if the name inputted is longer than 10 characters.
+```python
+if len(name) > 10:
+```
+Depending on the outcome, it will print the appropriate output. In both the if and else statements, we can add the `len()` function to the print so that it indicates how many characters are there.
+```python
+print("Name is longer than 10 Characters. The length is:", len(name))    
+else:
+    print("Name is not longer than 10 Characters. The length is:", len(name))
+```
+
+### 5. Gender
+We can also use comparison operators to check if a String is equal to another String. `.lower()` is a python method wherein we can change the whole String to be lowercase letters, which will make the comparison between Strings easier.
+```python
+gender = input("What is your gender?: ").lower()
+
+if gender == 'male':
+    print("Your gender is: Male")
+
+elif gender == 'female':
+    print("Your gender is: Female")
+
+else:
+    print("Error")
+```
+
+To compare Strings, the expected value should be enclosed in `''` apostrophe.
+```python
+if gender == 'male':
+```
+We do the same thing with 'female', but this time, we use elif as it is another condition that we are considering.
+```python
+elif gender == 'female':
+```
+And of course else will print error.
 
 
 
