@@ -110,7 +110,7 @@ name="Random Name"
 print(name[1:5])
 print(name[8:10])
 ```
-In this code, the goal is to slice your name in a way where it removes the first and last letter of you first, middle and last name, for this, we will be using String Indexing.
+In this code, the goal is to slice your name in a way where it removes the first and last letter of your first, middle and last name, for this, we will be using String Indexing.
  
 String indexing is sort of a way to "slice" a string. Indexing uses `[]` brackets for the notation after the String or a variable assigned to the string.
 
