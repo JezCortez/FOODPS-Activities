@@ -1,4 +1,7 @@
-# FOODPS-Activities
+
+<h1 align="center">
+  FOODPS Activities
+</h1>
 Fundamentals of Object-oriented Programming and Discrete Structures (FOODPS) Activity Programs
 
 This is a collection for all the programming activities of the AdDU-SHS FOODPS subject. With this, it will guide and explain the code presented as well as show how it works. This can be used to know the codes ahead of time, even also to practice said activities. 
