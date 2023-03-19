@@ -31,33 +31,33 @@ Here are some Data types that are going to be discussed in the FOODPS subject:
 - **Set**
 - **Boolean**
 
-### Integer
+### ║ Integer 
 Integer or `int` is a data type used for any whole numbers like 5, 400 or 1000, basically any number that isn't derived from a fraction is a whole number, this also includes negative numbers.
 
-### Floating Point
+### ║ Floating Point
 Floating point or `float` is a data type used for fractions or fraction of a number that comprises of a decimal point, numbers like 3.14, 5.977 or 300.0.
 
-### String
+### ║ String 
 String or `str` is a data type used for ordered sequence of characters. It is commonly used with words and phrases and is the default data type in a `print` function. Example of a string would be: "hello", "goodbye" and "blah blah blah". Spaces, numbers and symbols and any combination of these can be used in a string.
 
-### List
+### ║ List 
 List or `list` is a data type used to make an ordered sequence of objects, objects can be of other data types such as the Integer, Floating Point or String. The order is numbered from the first object starting from 0 then 1, 2, 3 and so on. The syntax of the list data type is `[]` Brackets.
 
-### Dictionary
+### ║ Dictionary 
 Dictionary or `dict` is a date type used to make an unordered pairs of keys with their respective values. Keys of a dictionary is always a string but the values can be of any data type. The syntax of a dictionary are `{}` Curly Brackets with `:` a Colon indicating the separation between the key and its value.
 
-### Tuple
+### ║ Tuple 
 Tuple or `tup` is a data type much like the list in where it is an ordered sequence of objects, but a Tuple is different in the sense that it is immutable or unchangeable. A Tuple can be other data types like Integer, Floating point or String.
 
-### Set
+### ║ Set 
 Set or `set` is a data type used to make unordered set of unique objects, it is unchangeable and does not allow duplicates, however, you can add or remove items of a set. The syntax of a set is the same with the dictionary, `{}` Curly Brackets.
 
-### Boolean
+### ║ Boolean 
 Boolean or `bool` is a data type used to indicate if a value is true or false.
 
 
  
-## Activity #1: Hello world
+## ► Activity #1: Hello world
 
 `print` is one of the simplest and most used function in all of python programming, it allows the program to output anything like a message or an answer.
 
@@ -79,7 +79,7 @@ The function is straightforward, it calls for a function, in this case the `prin
 
 The parameters are what is to be outputted by the program, which is `"Hello World"`
 
-## Activity #2: Check your Temperature
+## ► Activity #2: Check your Temperature
 Assigning a variable is important in this case as it can be used in mathematical operations.
 The goal is to convert a fahrenheit temperature reading to celsius. The formula of that coversion is `c = (5/9) x (f-32)`. Python operates math equations using symbols like `+` , `-`, `/`, `*` and `=` for addition, subtraction, division, multiplication and equals respectively.
 ```python
@@ -104,7 +104,7 @@ And of course, it prints the outcome.
 print(c)
 ```
 
-## Activity #3: Slice your name
+## ► Activity #3: Slice your name
 A value of a String can be manipulated and this activity is a good example of the many things you can do with String.
 
 ```python
@@ -125,7 +125,7 @@ ando
 am
 ```
 
-## Tuple as key in dictionary
+## ► Tuple as key in a dictionary
 Tuple can be used as a key in a Dictionary, since it is an ordered sequence while being immutable, it is perfect in a use case where you want the "keys" to not alter or fail.
 
 ```python
@@ -159,7 +159,7 @@ In the `print()` function, we can set what value to output by putting the key of
 Hello
 ```
 
-## If Problems
+## ► If Problems
 
 If statements are conditional operations where it does something in some condition.
 `if`, `elif` and `else` is part of the If statements.
@@ -173,24 +173,24 @@ elif other_condition:
 else:
     do_something_else
 ```
-### Comparison Operators
+### ► Comparison Operators
 Comparison operators are used for comparing two different values with each other.
 
-#### [ == ]
+#### » [ == ]
 `==` or "Equal To" makes a condition true if both of the values compared are equal to each other.
-#### [ != ]
+#### » [ != ]
 `!=` or "Not Equal To" makes a condtion true if both of the values compared are not equal to each other. 
-#### [ > ]
+#### » [ > ]
 `>` or "Greater Than" makes a condtiion true if the left operand is greater than the right operand.
-#### [ < ]
+#### » [ < ]
 `<` or "Less Than" makes a conditions true if the left operand is less than the right operand.
-#### [ >= ]
+#### » [ >= ]
 `>=` or "Greater Than or Equal To" makes a condition true if the left operand is greater than or equal to the right operand.
-#### [ <= ]
+#### » [ <= ]
 `<=` or "Less Than or Equal To" makes a condition true if the left operand is less then or equal to the right operand.
 
 
-### 1. Positive and Negative Numbers
+### ► 1. Positive and Negative Numbers
 The assignment is to write a program that asks a user to input a number and checks if the number is positive or negative.
 
 The program below does exactly as what is asked for:
@@ -232,7 +232,7 @@ else:
 If the outcome of the previous operation didn't fulfill the conditions set, it goes to the else function, in this case, it prints "The number is odd"
 
 
-### 2. Age
+### ► 2. Age
 The assignment is to write a program that asks a user to input their age and checks whether they are of legal age (18 years old)
 ```python
 age = int(input("How old are you?: "))
@@ -254,7 +254,7 @@ else:
     print("Not Old Enough")
 ```
 
-### 3. Two Equal numbers
+### ► 3. Two Equal numbers
 The assignment is to write a program where the user inputs two numbers and checks if the two numbers are equal.
 Same with no.1, we will use the equal to comparison operator.
 ```python
@@ -269,7 +269,7 @@ else:
 ```
 We assign a variable to each number for each input and we compare them together to check if both of them are equal to each other.
 
-### 4. Name Length
+### ► 4. Name Length
 We can use the `len()` function to count how many characters are there in a String.
 ```python
 name = input("What is your name?: ")
@@ -290,7 +290,7 @@ else:
     print("Name is not longer than 10 Characters. The length is:", len(name))
 ```
 
-### 5. Gender
+### ► 5. Gender
 We can also use comparison operators to check if a String is equal to another String. `.lower()` is a python method wherein we can change the whole String to be lowercase letters, which will make the comparison between Strings easier.
 ```python
 gender = input("What is your gender?: ").lower()
@@ -320,7 +320,7 @@ And of course else will print error.
 
 
 
-## Topic 3.1: Tatsulok!
+## ► Topic 3.1: Tatsulok!
 `for` is a type of loop in python where it is used to iterate over a sequence, while `range()` is a function that returns a sequence of numbers, starting from 0, and increments by 1, and stops at a specified number.
 ```python
 n = int(input("Please input the highest point of the triangle: "))
@@ -361,7 +361,7 @@ for r in range(n):
 Same function as before, but now, every loop subtracts 1 asterisk until the variable `n` reaches 0.
 
 
-## Palindrome
+## ► Palindrome
 The objective is to write a program that checks if the user inputted word is a palindrome or not.
 Since a palindrome is a word that is the same reversed, flipping the word and comparing it to the original word is a good way to do it.
 
