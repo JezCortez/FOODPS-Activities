@@ -78,6 +78,7 @@ The parameters are what is to be outputted by the program, which is `"Hello Worl
 
 ## Activity #2: Check your Temperature
 Assigning a variable is important in this case as it can be used in mathematical operations.
+The goal is to convert a fahrenheit temperature reading to celsius. The formula of that coversion is `c = (5/9) x (f-32)`. Python operates math equations using symbols like `+` , `-`, `/`, `*` and `=` for addition, subtraction, division, multiplication and equals respectively.
 ```python
 f=float(input())
 c=(5/9)*(f-32)
