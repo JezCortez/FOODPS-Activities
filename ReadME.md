@@ -373,7 +373,7 @@ if x == x[::-1]:
 else:
     print("The word is not a palindrome")
 ```
-Same as the others, the first part asks for a user input, with `lower()` method where each character of the world is going to be changed to lowercase letters.
+Same as the others, the first part asks for a user input, with `lower()` method where each character of the word is going to be changed to lowercase letters.
 ```python
 x = input("Input a word: ").lower()
 ```
