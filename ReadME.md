@@ -15,11 +15,6 @@ FOODPS uses python3 and when trying any of the codes, copy it and paste it to an
 or use an [online python compiler](https://www.onlinegdb.com/online_python_compiler)
 
 
-Since this is part of the assignments in this subject, it is highly recommended to change the variable names of the code so as to not promote plagiarism, although I don't particularly mind about it, it is still good practice to change it in a way that its different from source code.
-
-
-Sharing of the codes and programs is widely accepted and linking this repository is much appreciated!
-
 ## Python Data Types
 Here are some Data types that are going to be discussed in the FOODPS subject:
 - **Integer**
