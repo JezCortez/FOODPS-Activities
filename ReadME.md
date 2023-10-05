@@ -84,7 +84,7 @@ c=(5/9)*(f-32)
 print(c)
 ```
 In the code above, we are using two variables, `f` and `c` to solve for what is asked.
-The `f` variable is for the input of the user, which also indicates that it accepts `float` input. 
+The `f` variable is for the input of the user, which also indicates that it accepts `float` input by putting `float` before the `input` function. 
 ```python
 f=float(input())
 ```
@@ -112,7 +112,7 @@ In this code, the goal is to slice your name in a way where it removes the first
  
 String indexing is sort of a way to "slice" a string. Indexing uses `[]` brackets for the notation after the String or a variable assigned to the string.
 
-`[Start:Stop:Step]` is the syntax of String indexing. The "Start" is the numerical index to indicate the start of the slice, the "Stop" is where it ends (the value in this index won't be added) and "Step" is the amount of units it "jumps" at.
+`[Start:Stop:Step]` is the syntax of String indexing. The "Start" is the numerical index to indicate the start of the slice, the "Stop" is where it ends (the value in this index won't be added) and "Step" is the amount of units it "jumps" at, putting nothing in the "Step" part is fine and won't affect the indexing. Having only the "Step" part with the value of -1 indexes the string as its inverse | `[::-1]`
 
 The output of this would be:
 ```python
